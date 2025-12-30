@@ -14,7 +14,7 @@ const FAQ = () => {
     {
       domanda: 'È adatto a tutti i livelli?',
       risposta:
-        'Sì! Lo stage è pensato per nuotatori di tutti i livelli, dai principianti agli agonisti. I nostri istruttori adatteranno gli esercizi in base al tuo livello tecnico per garantirti il massimo apprendimento.',
+        'Sì! Lo stage è pensato per nuotatori di tutti i livelli, dai principianti agli agonisti. I nostri esperti adatteranno gli esercizi in base al tuo livello tecnico per garantirti il massimo apprendimento.',
     },
     {
       domanda: 'Cosa devo portare?',
