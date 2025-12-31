@@ -49,7 +49,7 @@ const InfoPratiche = () => {
             transition={{ duration: 0.6 }}
             className="relative group"
           >
-            <div className="bg-gradient-to-br from-ocean-600 to-ocean-500 rounded-3xl p-8 text-white shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden">
+            <div className="bg-gradient-to-br from-ocean-600 to-ocean-500 rounded-3xl p-8 text-white shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden" style={{ isolation: 'isolate' }}>
               <div className="relative z-10">
                 <div className="flex items-center gap-3 mb-4">
                   <Euro className="w-10 h-10" />
@@ -76,7 +76,7 @@ const InfoPratiche = () => {
             transition={{ duration: 0.6 }}
             className="relative group"
           >
-            <div className="bg-gradient-to-br from-red-500 to-red-600 rounded-3xl p-8 text-white shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden">
+            <div className="bg-gradient-to-br from-red-500 to-red-600 rounded-3xl p-8 text-white shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden" style={{ isolation: 'isolate' }}>
               <div className="relative z-10">
                 <div className="flex items-center gap-3 mb-4">
                   <Users className="w-10 h-10" />

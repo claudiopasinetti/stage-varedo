@@ -69,7 +69,7 @@ const Programma = () => {
                 transition={{ duration: 0.6, delay: idx * 0.2 }}
                 className="group"
               >
-                <div className="relative bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 h-full">
+                <div className="relative bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 h-full" style={{ isolation: 'isolate' }}>
                   {/* Header colorato */}
                   <div className={`bg-gradient-to-r ${sessione.color} p-8 text-white`}>
                     <div className="flex items-center justify-between mb-4">

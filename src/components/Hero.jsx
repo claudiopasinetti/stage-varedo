@@ -48,7 +48,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-ocean-600 via-ocean-500 to-ocean-400">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-ocean-600 via-ocean-500 to-ocean-400 w-full">
       {/* Wave Background SVG */}
       <div className="absolute inset-0 opacity-20">
         <svg
