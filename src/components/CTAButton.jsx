@@ -3,7 +3,17 @@ import { ArrowDown } from 'lucide-react';
 
 const CTAButton = ({ text = "ISCRIVITI ORA", variant = "primary", bgColor = "white" }) => {
   const scrollToForm = () => {
-    document.getElementById('form-section')?.scrollIntoView({ behavior: 'smooth' });
+    const element = document.getElementById('iscrizione');
+    if (element) {
+      const offset = 80; // Altezza della navbar
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
   };
 
   const variants = {

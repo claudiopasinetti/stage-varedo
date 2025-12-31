@@ -20,7 +20,7 @@ const Location = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-white to-ocean-50">
+    <section id="location" className="py-20 bg-gradient-to-b from-white to-ocean-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Intestazione */}
         <motion.div

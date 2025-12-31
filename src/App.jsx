@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { initMetaPixel, setupTallyListener } from './lib/metaPixel';
+import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Programma from './components/Programma';
 import Istruttori from './components/Istruttori';
@@ -24,6 +25,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-white">
+      <Navbar />
       <Hero />
       <Programma />
       <CTAButton bgColor="ocean-50" />

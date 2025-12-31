@@ -28,7 +28,7 @@ const TallyForm = () => {
   }, []);
 
   return (
-    <section id="form-section" className="py-20 bg-gradient-to-b from-ocean-50 to-white scroll-mt-20">
+    <section id="iscrizione" className="py-20 bg-gradient-to-b from-ocean-50 to-white scroll-mt-20">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Intestazione */}
         <motion.div
