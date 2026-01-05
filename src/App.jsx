@@ -10,6 +10,7 @@ import FAQ from './components/FAQ';
 import TallyForm from './components/TallyForm';
 import Footer from './components/Footer';
 import CTAButton from './components/CTAButton';
+import SocialProofNotification from './components/SocialProofNotification';
 
 function App() {
   useEffect(() => {
@@ -39,6 +40,7 @@ function App() {
       <CTAButton bgColor="white" />
       <TallyForm />
       <Footer />
+      <SocialProofNotification />
     </div>
   );
 }
